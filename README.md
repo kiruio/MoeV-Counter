@@ -1,6 +1,6 @@
-# *Moe Counter!*
+# _Moe Counter!_
 
-多种风格可选的萌萌计数器
+多种风格可选的萌萌计数器,
 
 <p align="center">
   <a href="https://count.getloli.com" target="_blank">
@@ -21,7 +21,7 @@
 <details>
 <summary><h2>More theme</h2></summary>
 
-### *[Contribute themes is welcome!](https://github.com/journey-ad/Moe-Counter/issues/new?assignees=&labels=theme&projects=&template=contribute-theme.yml&title=%5BTheme%5D%3A+)*
+### _[Contribute themes is welcome!](https://github.com/journey-ad/Moe-Counter/issues/new?assignees=&labels=theme&projects=&template=contribute-theme.yml&title=%5BTheme%5D%3A+)_
 
 ##### 3d-num
 
@@ -238,6 +238,7 @@
 </details>
 
 ## Demo
+
 [https://count.getloli.com](https://count.getloli.com)
 
 ## How to use
@@ -248,49 +249,44 @@ For information on counter usage and configuration, refer to the [demo website](
 
 ### Deploying
 
+#### Local Development
+
 ```shell
 $ git clone https://github.com/journey-ad/Moe-Counter.git
 $ cd Moe-Counter
 $ pnpm install
-
 $ pnpm start
 ```
 
+#### Vercel Deployment
+
+1. Fork this repository
+2. Connect to Vercel
+3. Set environment variables in Vercel dashboard:
+   - `MONGODB_URI`: Your MongoDB connection string
+   - `APP_SITE`: Your website URL (optional)
+   - `GA_ID`: Google Analytics ID (optional)
+   - `DB_INTERVAL`: Database write interval in seconds (optional, default: 30)
+   - `LOG_LEVEL`: Log level (optional, default: warn)
+
 ### Configuration
 
-Set `.env` file to specify the environment variables. *[.env.example](./.env.example)*
+The application uses environment variables for configuration:
 
-```dosini
-# Specify your website URL
-# APP_SITE=https://count.getloli.com
-
-# Application port
-APP_PORT=3000
-
-# Database type: either 'sqlite' or 'mongodb'
-DB_TYPE=sqlite
-
-# If using MongoDB, provide the connection string
-# DB_URL=mongodb://127.0.0.1:27017
-
-# Database write interval in seconds (0 for real-time)
-DB_INTERVAL=60
-
-# Log level: either 'debug' | 'info' | 'warn' | 'error' | 'none'
-LOG_LEVEL=debug
-
-# Google Analytics `G-Tag` ID
-# GA_ID=G-XXXX
-```
+- `MONGODB_URI`: MongoDB connection string (required)
+- `APP_SITE`: Website URL (optional)
+- `GA_ID`: Google Analytics ID (optional)
+- `DB_INTERVAL`: Database write interval in seconds (optional, default: 30)
+- `LOG_LEVEL`: Log level (optional, default: warn)
 
 ## Credits
 
-* [Render](https://render.com/)
-* [A-SOUL_Official](https://space.bilibili.com/703007996)
-* [moebooru](https://github.com/moebooru/moebooru)
-* gelbooru.com NSFW
-* [Icons8](https://icons8.com/icon/80355/star)
-* *And all booru site...*
+- [Render](https://render.com/)
+- [A-SOUL_Official](https://space.bilibili.com/703007996)
+- [moebooru](https://github.com/moebooru/moebooru)
+- gelbooru.com NSFW
+- [Icons8](https://icons8.com/icon/80355/star)
+- _And all booru site..._
 
 ## License
 

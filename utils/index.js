@@ -1,4 +1,4 @@
-const log_level = process.env.LOG_LEVEL || 'info';
+const log_level = process.env.LOG_LEVEL || 'warn';
 
 const levels = ['none', 'error', 'warn', 'info', 'debug'];
 const currentLevelIndex = levels.indexOf(log_level);

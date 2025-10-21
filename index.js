@@ -1,6 +1,5 @@
 "use strict";
 
-require('dotenv').config();
 const express = require("express");
 const compression = require("compression");
 const { z } = require("zod");
@@ -16,6 +15,7 @@ app.use(express.static("assets"));
 app.use(compression());
 app.use(cors());
 app.set("view engine", "pug");
+app.set("views", __dirname + "/views");
 
 app.get('/', (req, res) => {
   const site = process.env.APP_SITE || `${req.protocol}://${req.get('host')}`
@@ -101,12 +101,12 @@ app.get("/heart-beat", (req, res) => {
   logger.debug("heart-beat");
 });
 
-const listener = app.listen(process.env.APP_PORT || 3000, () => {
+const listener = app.listen(80, () => {
   logger.info("Your app is listening on port " + listener.address().port);
 });
 
 let __cache_counter = {};
-let enablePushDelay = process.env.DB_INTERVAL > 0
+let enablePushDelay = process.env.DB_INTERVAL || 30;
 let needPush = false;
 
 if (enablePushDelay) {

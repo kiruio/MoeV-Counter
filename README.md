@@ -19,6 +19,7 @@ Fork from [Moe Counter](https://github.com/journey-ad/Moe-Counter)
 准备一个可以被访问的 MongoDB。
 
 [![Deploy to Vercel](https://vercel.com/button)](https%3a%2f%2fvercel.com%2fnew%2fclone%3frepository-url%3dhttps%3a%2f%2fgithub.com%2fkiruio%2fMoeV-Counter%26env%3dMONGODB_URI%26envDescription%3dMONGODB+server+uri%26project-name%3dmoe-counter%26repository-name%3dmoe-counter)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkiruio%2FMoeV-Counter.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkiruio%2FMoeV-Counter?ref=badge_shield)
 
 或者，手动部署:
 
@@ -36,3 +37,7 @@ Fork from [Moe Counter](https://github.com/journey-ad/Moe-Counter)
 - `GA_ID`: Google Analytics ID (可选)
 - `DB_INTERVAL`: 数据库写入周期，单位秒 (可选, 默认: 30)
 - `LOG_LEVEL`: 日志级别 (可选, 默认: warn)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkiruio%2FMoeV-Counter.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkiruio%2FMoeV-Counter?ref=badge_large)

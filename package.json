@@ -34,7 +34,7 @@
 		"express": "^5.2.1",
 		"image-size": "^2.0.2",
 		"mime-types": "^3.0.2",
-		"mongoose": "^8.19.2",
+		"mongoose": "^8.20.3",
 		"pug": "^3.0.3",
 		"zod": "^4.1.12"
 	}

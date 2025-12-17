@@ -26,7 +26,7 @@
 		"@types/mime-types": "^3.0.1",
 		"@types/node": "^24.10.4",
 		"@types/pug": "^2.0.10",
-		"tsx": "^4.20.6",
+		"tsx": "^4.21.0",
 		"typescript": "^5.9.3"
 	},
 	"dependencies": {

@@ -21,8 +21,8 @@ importers:
         specifier: ^3.0.2
         version: 3.0.2
       mongoose:
-        specifier: ^8.22.0
-        version: 8.22.0
+        specifier: ^8.22.1
+        version: 8.22.1
       pug:
         specifier: ^3.0.3
         version: 3.0.3
@@ -40,8 +40,8 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1
       '@types/node':
-        specifier: ^24.10.10
-        version: 24.10.10
+        specifier: ^24.10.11
+        version: 24.10.11
       '@types/pug':
         specifier: ^2.0.10
         version: 2.0.10
@@ -251,8 +251,8 @@ packages:
   '@types/mime-types@3.0.1':
     resolution: {integrity: sha512-xRMsfuQbnRq1Ef+C+RKaENOxXX87Ygl38W1vDfPHRku02TgQr+Qd8iivLtAMcR0KF5/29xlnFihkTlbqFrGOVQ==}
 
-  '@types/node@24.10.10':
-    resolution: {integrity: sha512-+0/4J266CBGPUq/ELg7QUHhN25WYjE0wYTPSQJn1xeu8DOlIOPxXxrNGiLmfAWl7HMMgWFWXpt9IDjMWrF5Iow==}
+  '@types/node@24.10.11':
+    resolution: {integrity: sha512-/Af7O8r1frCVgOz0I62jWUtMohJ0/ZQU/ZoketltOJPZpnb17yoNc9BSoVuV9qlaIXJiPNOpsfq4ByFajSArNQ==}
 
   '@types/pug@2.0.10':
     resolution: {integrity: sha512-Sk/uYFOBAB7mb74XcpizmH0KOR2Pv3D2Hmrh1Dmy5BmK3MpdSa5kqZcg6EKBdklU0bFXX9gCfzvpnyUehrPIuA==}
@@ -554,8 +554,8 @@ packages:
       socks:
         optional: true
 
-  mongoose@8.22.0:
-    resolution: {integrity: sha512-LKTPPqD3CVcSZJRzPcwKiSVYTmAvBZeVT0V34vUiqPEo9sBmOEg1y4TpDbUb90Zf2lO4N05ailQnKxiapCN08g==}
+  mongoose@8.22.1:
+    resolution: {integrity: sha512-c0bzt7ElI1CwWiyFSgg9bfhlFcblAoPwr+gmDcLCryClyKaeixWhP9KDGnr13kRPE8KPAuUN3ZZ3jSDxSPvoTg==}
     engines: {node: '>=16.20.1'}
 
   mpath@0.9.0:
@@ -885,20 +885,20 @@ snapshots:
   '@types/body-parser@1.19.6':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 24.10.10
+      '@types/node': 24.10.11
 
   '@types/compression@1.8.1':
     dependencies:
       '@types/express': 5.0.6
-      '@types/node': 24.10.10
+      '@types/node': 24.10.11
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 24.10.10
+      '@types/node': 24.10.11
 
   '@types/express-serve-static-core@5.1.0':
     dependencies:
-      '@types/node': 24.10.10
+      '@types/node': 24.10.11
       '@types/qs': 6.14.0
       '@types/range-parser': 1.2.7
       '@types/send': 1.2.1
@@ -913,7 +913,7 @@ snapshots:
 
   '@types/mime-types@3.0.1': {}
 
-  '@types/node@24.10.10':
+  '@types/node@24.10.11':
     dependencies:
       undici-types: 7.16.0
 
@@ -925,12 +925,12 @@ snapshots:
 
   '@types/send@1.2.1':
     dependencies:
-      '@types/node': 24.10.10
+      '@types/node': 24.10.11
 
   '@types/serve-static@2.2.0':
     dependencies:
       '@types/http-errors': 2.0.5
-      '@types/node': 24.10.10
+      '@types/node': 24.10.11
 
   '@types/webidl-conversions@7.0.3': {}
 
@@ -1236,7 +1236,7 @@ snapshots:
       bson: 6.10.4
       mongodb-connection-string-url: 3.0.2
 
-  mongoose@8.22.0:
+  mongoose@8.22.1:
     dependencies:
       bson: 6.10.4
       kareem: 2.6.3

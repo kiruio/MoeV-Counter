@@ -24,7 +24,7 @@
 		"@types/compression": "^1.8.1",
 		"@types/express": "^5.0.6",
 		"@types/mime-types": "^3.0.1",
-		"@types/node": "^24.10.10",
+		"@types/node": "^24.10.11",
 		"@types/pug": "^2.0.10",
 		"tsx": "^4.21.0",
 		"typescript": "^5.9.3"
@@ -34,7 +34,7 @@
 		"express": "^5.2.1",
 		"image-size": "^2.0.2",
 		"mime-types": "^3.0.2",
-		"mongoose": "^8.22.0",
+		"mongoose": "^8.22.1",
 		"pug": "^3.0.3",
 		"zod": "^4.3.6"
 	}
